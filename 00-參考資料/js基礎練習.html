@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<style>
+		p {
+			/* font-size: 30px; */
+		}
+	</style>
+</head>
+<body>
+	<div id="btn" onclick="toBig()">+</div>
+	<p id="text" class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, necessitatibus accusamus rerum quasi delectus, debitis amet natus iste cumque dignissimos minima. Mollitia dolorem fugiat, consequatur ratione cumque perferendis odit inventore.</p>
+	<script>
+		// x + 5 = 20;
+		// 15 + 5 = 20;
+		var oText = document.querySelector(".text");
+		oText.style.fontSize = '30px';
+		oText.style.color = 'red';
+
+		var size = 16;
+
+		function toBig() {
+			size++;
+			console.log(size);
+		}
+	</script>
+</body>
+</html>
