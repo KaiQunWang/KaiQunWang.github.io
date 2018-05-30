@@ -11,7 +11,7 @@ html{
     position: fixed;  /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
     top: 50%;
     left: -100px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
-    background-image: url('../material/p2-icon-arrow.png');
+    background-image: url('../material/p2-icon-top.jpg');
     background-size: cover;
     background-position: center;
     padding: 10px 20px;
@@ -20,7 +20,7 @@ html{
     -webkit-border-radius: 10px; 
 }
 .continer{
-	max-width:80%;
+	max-width:1440px;
 	background-color:#9BCBFD;
 	margin: 0 auto;
 }
@@ -68,7 +68,6 @@ html{
 	display: inline-block;
 }
 .continer .title_box h1{
-	margin: 0 auto;
 	font-size: 50px; 
 }
 #astralstory .text-js{
@@ -177,12 +176,25 @@ hr{
 #protoss .up .starsoul.img5{
 	background-image: url('/material/astarimage-sletect/p3-starsoul-yeosomaru-v2.png');
 }
+ul li {
+	background-size: cover;
+	background-position: center;
+	display: inline-block;
+	padding: 100px 100px;
+	margin-right: 20px;
+	
+}
+
+ul li.active {
+	opacity: 1;
+}
 #protoss .up .starsoul{
 	width: 130px;
 	height: 130px;
 	margin-right:20px;
 	margin-left: 10px;
 	display: inline-block;
+	opacity: 0.6;
 }
 #protoss .down{
 	width: 100%;

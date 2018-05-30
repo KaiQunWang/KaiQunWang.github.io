@@ -14,12 +14,8 @@
 </head>
 
 <body>
-  
-  <div id="continer">
-      <button id="button">Click that shit</button>
-  </box>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <img id="theImage" src="/material/p3-starsoul-gaia.jpg">
+<p><input type="button" id="theButton" value="click me!" onclick="pictureChange()"></p>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous">
     </script>
@@ -29,25 +25,9 @@
     crossorigin="anonymous"></script>
 </body>
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    var button = document.getElementById("button");
-    var rainbow = ["#c9043f", "#11514d", "#c9043f", "#182da5", "#687fff", "#eeeeee", "#000000"];
-
-    function change() {
-      document.body.style.background = rainbow[Math.floor(7 * Math.random())];
+    function pictureChange()
+    {
+    document.getElementById(theImage.src="/material/p3-starsoul-fina.jpg");
     }
-
-    button.addEventListener("click", change);
-    //console.log(rainbow[0]);
-  });
-
-
-</script>
-
-<script type="text/javascript">
-  function changeImage(a) {
-    document.getElementById("img").src = a.src;
-  }
-</script>
-
+    </script>
 </html>

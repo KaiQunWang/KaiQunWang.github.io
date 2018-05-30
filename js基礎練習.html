@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<style>
+		p {
+			/* font-size: 30px; */
+		}
+
+		#btn1 {
+			background-image: url('/material/astarimage-sletect/p3-starsoul-belle-v2.png');
+		}
+
+		#btn2 {
+			background-image: url('/material/astarimage-sletect/p3-starsoul-yeosomaru-v2.png');
+		}
+
+		#btn3 {
+			background-image: url('/material/astarimage-sletect/p3-starsoul-eve-v2.png');
+		}
+		#btn4 {
+			background-image: url('/material/astarimage-sletect/p3-starsoul-fina-v2.png');
+		}
+		#btn5 {
+			background-image: url('/material/astarimage-sletect/p3-starsoul-elliotti-v2.png');
+		}
+
+		ul li {
+			background-size: cover;
+			background-position: center;
+			display: inline-block;
+			padding: 100px 100px;
+			margin-right: 20px;
+			opacity: 0.6;
+		}
+
+		ul li.active {
+			opacity: 1;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- <div id="btn1" onclick="toBig()">+</div> -->
+	<!-- 	<div id="btn1">+</div>
+
+	<p id="text" class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, necessitatibus accusamus rerum quasi delectus, debitis amet natus iste cumque dignissimos minima. Mollitia dolorem fugiat, consequatur ratione cumque perferendis odit inventore.</p> -->
+
+	<ul>
+		<li id="btn1" class="active"></li>
+		<li id="btn2"></li>
+		<li id="btn3"></li>
+		<li id="btn4"></li>
+		<li id="btn5"></li>
+	</ul>
+	<img id="theImage" src="/material/astarmage-show/p3-starsoul-belle.jpg">
+	<script>
+		var oBtn1 = document.querySelector("#btn1");
+		var oBtn2 = document.querySelector("#btn2");
+		var oBtn3 = document.querySelector("#btn3");
+		var oBtn4 = document.querySelector("#btn4");
+		var oBtn5 = document.querySelector("#btn5");
+		var tempBtn = oBtn1;
+
+		oBtn1.onclick = function () {
+			oBtn1.classList.add("active");
+			tempBtn.classList.remove("active");
+			tempBtn = oBtn1;
+			document.getElementById(theImage.src = "/material/astarmage-show/p3-starsoul-belle.jpg");
+		}
+		oBtn2.onclick = function () {
+			oBtn2.classList.add("active");
+			tempBtn.classList.remove("active");
+			tempBtn = oBtn2;
+			document.getElementById(theImage.src = "/material/astarmage-show/p3-starsoul-yeosomaru-02.jpg");
+		}
+		oBtn3.onclick = function () {
+			oBtn3.classList.add("active");
+			tempBtn.classList.remove("active");
+			tempBtn = oBtn3;
+			document.getElementById(theImage.src = "/material/astarmage-show/p3-starsoul-eve.jpg");
+		}
+		oBtn4.onclick = function () {
+			oBtn4.classList.add("active");
+			tempBtn.classList.remove("active");
+			tempBtn = oBtn4;
+			document.getElementById(theImage.src = "/material/astarmage-show/p3-starsoul-fina.jpg");
+		}
+		oBtn5.onclick = function () {
+			oBtn5.classList.add("active");
+			tempBtn.classList.remove("active");
+			tempBtn = oBtn5;
+			document.getElementById(theImage.src = "/material/astarmage-show/p3-starsoul-elliotti-02.jpg");
+		}
+	</script>
+</body>
+
+</html>

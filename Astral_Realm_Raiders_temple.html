@@ -31,7 +31,7 @@
 			}
 		</script>
 		<div id="astralstory">
-			<div id="title_box">
+			<div id="title_box" class="align-middle">
 				<h1>關於星界</h1>
 			</div>
 			<div class="type-js headline">
@@ -52,7 +52,7 @@
 			</div>
 		</div>
 		<div id="news">
-			<div id="title_box">
+			<div id="title_box" class="align-middle">
 				<h1>最新消息</h1>
 			</div>
 			<hr>
@@ -93,24 +93,24 @@
 			</div>
 		</div>
 		<div id="starsystem">
-			<div id="title_box">
+			<div id="title_box" class="align-middle">
 				<h1>星界系統</h1>
 			</div>
 			<hr>
-			<div id="title_smilebox">
+			<div id="title_smilebox" class="align-middle">
 				<h3>星界星靈</h3>
 			</div>
 			<div id="protoss">
 				<div class="up">
-					<div id=open class="starsoul img1 style"></div>
-					<div id=open class="starsoul img2 style"></div>
-					<div id=open class="starsoul img3 style"></div>
-					<div id=open class="starsoul img4 style"></div>
-					<div id=open class="starsoul img5 style"></div>
+					<div class="starsoul img1 style active"></div>
+					<div class="starsoul img2 style"></div>
+					<div class="starsoul img3 style"></div>
+					<div class="starsoul img4 style"></div>
+					<div class="starsoul img5 style"></div>
 				</div>
 				<div class="down">
 					<div class="left">
-						<div id="starsoul_img"></div>
+						<img id="theImage" src="/material/astarmage-show/p3-starsoul-belle-270x380.jpg">
 					</div>
 					<div class="right">
 						<h2>夜神丸</h2>
@@ -124,7 +124,7 @@
 				</div>
 			</div>
 			<hr>
-			<div id="title_smilebox">
+			<div id="title_smilebox" class="align-middle">
 				<h3>職業養成</h3>
 			</div>
 			<div id="protoss">
@@ -145,15 +145,16 @@
 				</div>
 				<div class="down">
 					<div class="left">
-						<div id="job_img">
-						</div>
-					</div>
-					<div class="right">
-						<br>
+							<br>
 						<h2>劍士</h2>
 						<div id="type">
 							<p>揮舞鋒利巨刃，身經百戰的劍士，有著狂野 劍技與強悍防禦，即使身陷重圍也能殺出一 條血路。擅長各種近距離戰鬥技能，同時可 以嘲諷敵人，是隊伍中第一線與怪物搏鬥的 主力。
 								<br>※額外屬性加成：生命、防禦、攻擊、爆擊</p>
+						</div>
+					</div>
+					<div class="right">
+							<div id="job_img">
+					
 						</div>
 					</div>
 				</div>
@@ -162,18 +163,18 @@
 		<div id="counterpart">
 			<a href="https://forum.gamer.com.tw/C.php?bsn=28353&snA=10464" target="_blank" style="text-decoration:none">
 				<div id="counterpart_up">
-					<h2>副本王怪討伐</h2>
+					<h2 class="align-middle">副本王怪討伐</h2>
 				</div>
 			</a>
 			<a href="https://forum.gamer.com.tw/C.php?bsn=28353&snA=1521" target="_blank" style="text-decoration:none">
 				<div id="counterpart_down">
-					<h2>野外王怪狩獵</h2>
+					<h2 class="align-middle">野外王怪狩獵</h2>
 				</div>
 			</a>
 		</div>
 		<div id="share">
 			<div class="left">
-				<h2>其他玩家心得</h2>
+				<h2 class="align-middle">其他玩家心得</h2>
 				<a href="https://forum.gamer.com.tw/C.php?bsn=28353&snA=10441" target="_blank">
 					<div class="share img1">
 						<h4>&emsp;裝備</h4>
@@ -201,7 +202,7 @@
 				</a>
 			</div>
 			<div class="right">
-				<h2>小編精選頻道</h2>
+				<h2 class="align-middle">小編精選頻道</h2>
 				<div class="share_video">
 					<iframe width="100%" height="250px%" src="https://www.youtube.com/embed/qqRNAUhleNg" frameborder="0" allow="autoplay; encrypted-media"
 					 allowfullscreen></iframe>
@@ -360,6 +361,69 @@
 			clickable: true,
 		},
 	});
+</script>
+<script>
+	var oBtn1 = document.querySelector(".starsoul.img1");
+	var oBtn2 = document.querySelector(".starsoul.img2");
+	var oBtn3 = document.querySelector(".starsoul.img3");
+	var oBtn4 = document.querySelector(".starsoul.img4");
+	var oBtn5 = document.querySelector(".starsoul.img5");
+	var tempBtn = oBtn1;
+
+	oBtn1.onclick = function () {
+		oBtn1.classList.add("active");
+		tempBtn.classList.remove("active");
+		tempBtn = oBtn1;
+		document.getElementById(theImage.src = "/material/astarmage-show/p3-starsoul-belle-270x380.jpg");
+	}
+	oBtn2.onclick = function () {
+		oBtn2.classList.add("active");
+		tempBtn.classList.remove("active");
+		tempBtn = oBtn2;
+		document.getElementById(theImage.src = "/material/astarmage-show/p3-starsoul-elliotti-270x380.jpg");
+	}
+	oBtn3.onclick = function () {
+		oBtn3.classList.add("active");
+		tempBtn.classList.remove("active");
+		tempBtn = oBtn3;
+		document.getElementById(theImage.src = "/material/astarmage-show/p3-starsoul-eve-270x380.jpg");
+	}
+	oBtn4.onclick = function () {
+		oBtn4.classList.add("active");
+		tempBtn.classList.remove("active");
+		tempBtn = oBtn4;
+		document.getElementById(theImage.src = "/material/astarmage-show/p3-starsoul-fina-270x380.jpg");
+	}
+	oBtn5.onclick = function () {
+		oBtn5.classList.add("active");
+		tempBtn.classList.remove("active");
+		tempBtn = oBtn5;
+		document.getElementById(theImage.src = "/material/astarmage-show/p3-starsoul-yeosomaru-02-270X380.jpg");
+	}
+</script>
+<script>
+	var oBtnjob1 = document.querySelector(".job.img1");
+	var oBtnjob2 = document.querySelector(".job.img2");
+	var oBtnjob3 = document.querySelector(".job.img3");
+	var oBtnjob4 = document.querySelector(".job.img4");
+	var oBtnjob5 = document.querySelector(".job.img5");
+	var oBtnjob6 = document.querySelector(".job.img6");
+	var oBtnjob7 = document.querySelector(".job.img7");
+	var oBtnjob8 = document.querySelector(".job.img8");
+	var oBtnjob9 = document.querySelector(".job.img9");
+	var oBtnjob10 = document.querySelector(".job.img10");
+	var oBtnjob11 = document.querySelector(".job.img11");
+	var oBtnjob12 = document.querySelector(".job.img12");
+	var oBtnjob13 = document.querySelector(".job.img13");
+	var tempBtn = oBtnjob1;
+
+	oBtnjob1.onclick = function () {
+		oBtn1.classList.add("active");
+		tempBtn.classList.remove("active");
+		tempBtn = oBtn1;
+		document.getElementById(theImage.src = "/material/astarmage-show/p3-starsoul-belle-270x380.jpg");
+	}
+	}
 </script>
 
 </html>
