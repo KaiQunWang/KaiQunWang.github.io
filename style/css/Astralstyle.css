@@ -11,7 +11,7 @@ html{
     position: fixed;  /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
     top: 50%;
     left: -100px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
-    background-image: url('../material/p2-icon-top.jpg');
+    background-image: url('material/00-navbar/p2-icon-top');
     background-size: cover;
     background-position: center;
     padding: 10px 20px;
@@ -21,7 +21,7 @@ html{
 }
 .continer{
 	max-width:1440px;
-	background-color:#9BCBFD;
+	background-color:#fff;
 	margin: 0 auto;
 }
 .continer h1,.continer h2,.continer h3,.continer h4{
@@ -32,7 +32,7 @@ html{
 }
 #astralstory{
 	height: 100vh;
-	background-image: url('/material/p1-astarImage-1-1.jpg');
+	background-image: url('material/01-story/p1-astarImage-1-1');
 	background-size: cover;
 	background-position: center;
 }
@@ -74,7 +74,7 @@ html{
 	 width: 60%;
  	 height:90vh;
 	 margin: 0 auto;
-	 color:#fff;
+	 color:#aaa;
 }
 #astralstory p{
 	text-indent: 50px;
