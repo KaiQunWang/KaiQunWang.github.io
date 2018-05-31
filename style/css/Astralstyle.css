@@ -11,7 +11,7 @@ html{
     position: fixed;  /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
     top: 50%;
     left: -100px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
-    background-image: url('material/00-navbar/p2-icon-top');
+	background-image: url('/material/00-navbar/p2-icon-arrow-close-100x100.jpg');
     background-size: cover;
     background-position: center;
     padding: 10px 20px;
@@ -20,8 +20,8 @@ html{
     -webkit-border-radius: 10px; 
 }
 .continer{
-	max-width:1440px;
-	background-color:#fff;
+	max-width:1140px;
+	background-color:#eee;
 	margin: 0 auto;
 }
 .continer h1,.continer h2,.continer h3,.continer h4{
@@ -31,8 +31,8 @@ html{
     color: transparent;
 }
 #astralstory{
-	height: 100vh;
-	background-image: url('material/01-story/p1-astarImage-1-1');
+	height: 600px;
+	background-image: url('/material/01-story/p1-astarImage-1-1.jpg');
 	background-size: cover;
 	background-position: center;
 }
@@ -56,15 +56,12 @@ html{
 	}
   }
 #title_box{
-	height: 8vh;
-	padding-left: 40%;
-	padding-right:40%;
-	display: inline-block;
+	height: 50px;
+	padding-left: 45%;
 }	
 #title_smilebox{
-	height: 8vh;
-	padding-left: 40%;
-	margin:0 auto;
+	height: 50px;
+	padding-left:45%;
 	display: inline-block;
 }
 .continer .title_box h1{
@@ -74,7 +71,7 @@ html{
 	 width: 60%;
  	 height:90vh;
 	 margin: 0 auto;
-	 color:#aaa;
+	 color:#fff;
 }
 #astralstory p{
 	text-indent: 50px;
@@ -162,19 +159,19 @@ hr{
 	cursor: pointer;
 }
 #protoss .up .starsoul.img1{
-	background-image: url('/material/astarimage-sletect/p3-starsoul-belle-v2.png');
+	background-image: url('/material/03-coser/astarimage-sletect/125x125/p3-starsoul-01.png');
 }
 #protoss .up .starsoul.img2{
-	background-image: url('/material/astarimage-sletect/p3-starsoul-elliotti-v2.png');
+	background-image: url('/material/03-coser/astarimage-sletect/125x125/p3-starsoul-02.png');
 }
 #protoss .up .starsoul.img3{
-	background-image: url('/material/astarimage-sletect/p3-starsoul-eve-v2.png');
+	background-image: url('/material/03-coser/astarimage-sletect/125x125/p3-starsoul-03.png');
 }
 #protoss .up .starsoul.img4{
-	background-image: url('/material/astarimage-sletect/p3-starsoul-fina-v2.png');
+	background-image: url('/material/03-coser/astarimage-sletect/125x125/p3-starsoul-04.png');
 }
 #protoss .up .starsoul.img5{
-	background-image: url('/material/astarimage-sletect/p3-starsoul-yeosomaru-v2.png');
+	background-image: url('/material/03-coser/astarimage-sletect/125x125/p3-starsoul-05.png');
 }
 ul li {
 	background-size: cover;
@@ -182,9 +179,7 @@ ul li {
 	display: inline-block;
 	padding: 100px 100px;
 	margin-right: 20px;
-	
 }
-
 ul li.active {
 	opacity: 1;
 }
@@ -214,9 +209,6 @@ ul li.active {
 }
 #protoss .down .left #starsoul_img{
 	height: 100%;
-	background-image: url('/material/p3-starsoul-yeosomaru-02-270X380.jpg');	
-	background-size: cover;
-	background-position: center;
 }
 #protoss .up .job{
 	width: 100px;
@@ -235,44 +227,44 @@ ul li.active {
 	cursor: pointer;
 }
 #protoss .up .job.img1{
-	background-image: url('/material/astarimage-sletect/p5-career-boxing-v2.png');
+	background-image: url('/material/03-coser/astarimage-sletect/125x125/career-01.png');
 }
 #protoss .up .job.img2{
-	background-image: url('/material/astarimage-sletect/p5-career-assassin-v2.png');
+	background-image: url('/material/03-coser/astarimage-sletect/125x125/career-02.png');
 }
 #protoss .up .job.img3{
-	background-image: url('/material/astarimage-sletect/p5-career-fighters-v2.png');
+	background-image: url('/material/03-coser/astarimage-sletect/125x125/career-03.png');
 }
 #protoss .up .job.img4{
-	background-image: url('/material/astarimage-sletect/p5-career-hunter-v2.png');
+	background-image: url('/material/03-coser/astarimage-sletect/125x125/career-04.png');
 }
 #protoss .up .job.img5{
-	background-image: url('/material/astarimage-sletect/p5-career-Jian-v2.png');
+	background-image: url('/material/03-coser/astarimage-sletect/125x125/career-05.png');
 }
 #protoss .up .job.img6{
-	background-image: url('/material/astarimage-sletect/p5-career-magic-v2.png');
+	background-image: url('/material/03-coser/astarimage-sletect/125x125/career-06.png');
 	background-size: cover;
 }
 #protoss .up .job.img7{
-	background-image: url('/material/astarimage-sletect/p5-career-paladin-v2.png');
+	background-image: url('/material/03-coser/astarimage-sletect/125x125/career-07.png');
 }
 #protoss .up .job.img8{
-	background-image: url('/material/astarimage-sletect/p5-career-dragon-knight-v2.png');
+	background-image: url('/material/03-coser/astarimage-sletect/125x125/career-08.png');
 }
 #protoss .up .job.img9{
-	background-image: url('/material/astarimage-sletect/p5-career-magic-gun-v2.png');
+	background-image: url('/material/03-coser/astarimage-sletect/125x125/career-09.png');
 }
 #protoss .up .job.img10{
-	background-image: url('/material/astarimage-sletect/p5-career-swordsman-v2.png');
+	background-image: url('/material/03-coser/astarimage-sletect/125x125/career-10.png');
 }
 #protoss .up .job.img11{
-	background-image: url('/material/astarimage-sletect/p5-career-sage-v2.png');
+	background-image: url('/material/03-coser/astarimage-sletect/125x125/career-11.png');
 }
 #protoss .up .job.img12{
-	background-image: url('/material/astarimage-sletect/p5-career-mystery-v2.png');
+	background-image: url('/material/03-coser/astarimage-sletect/125x125/career-12.png');
 }
 #protoss .up .job.img13{
-	background-image: url('/material/astarimage-sletect/p5-career-ranger-v2.png');
+	background-image: url('/material/03-coser/astarimage-sletect/125x125/career-13.png');
 }
 #protoss .down .right #type{
 	width: 100%;
@@ -281,15 +273,15 @@ ul li.active {
 #protoss .down .left #job_img{
 	width: 100%;
 	margin-top: 15%;
-	height:90%;
-	background-image: url('/material/p5-career-swordsman.jpg');	
+	height:80%;
+	background-image: url('/material/03-coser/career-13.jpg');	
 	background-size: cover;
 	background-position: center;
 }
 #counterpart{
 	width:100%;
-	height:35vh;
-	background-image: url('/material/p1-astarImage-07-v1.jpg');
+	height:320px;
+	background-image: url('/material/04-book/p1-astarImage-07-v1.jpg');
 	background-size: cover;
 	background-position: center;
 	display:inline-block;
@@ -308,7 +300,7 @@ ul li.active {
 	cursor: pointer;
 }
 #share{
-	height:65vh;
+	height:600px;
 
 }
 #share .left, #share .right{
@@ -322,7 +314,7 @@ ul li.active {
 }
 #share h2{ 
 	text-align: center;
-	color: #eef;
+	color:linear-gradient(#0072A4,#31B2EB,#6A74AF,#31B2EB);
 	font-size:45px;
 }
 #share .left h2{
@@ -330,63 +322,49 @@ ul li.active {
 	margin-right: 80px;
 }
 #share .share{
-	width: 150px;
-	height: 150px;
-	margin-top: 50px;
-	margin-left: 30px;
+	margin-top: 60px;
+	margin-left: 60px;
 	display: inline-block;
 }
 #share .share:hover{
 	cursor: pointer;
 }
-#share .left .share.img1{
+#share .left .share{
 	height: 100px;
 	width: 100px;
-	background-image: url('/material/share-image/p7-share-equipment.png');
-	background-size: cover;	
-}
-#share .left .share.img2{
-	height: 100px;
-	width: 100px;
-	background-image: url('/material/share-image/p7-share-starsoul.jpg');
-	background-size: cover;	
-}
-#share .left .share.img3{
-	height: 100px;
-	width: 100px;
-	background-image: url('/material/share-image/p7-share-career.jpg');
-	background-size: cover;	
-}
-#share .left .share.img4{
-	height: 100px;
-	width: 100px;
-	background-image: url('/material/share-image/p7-share-pet.jpg');
 	background-size: cover;
 	background-position: center;	
 }
+#share .left .share.img1{
+	background-image: url('/material/05-share/p7-share-01.jpg');
+}
+#share .left .share.img2{
+	background-image: url('/material/05-share/p7-share-02.png');
+}
+#share .left .share.img3{
+	background-image: url('/material/05-share/p7-share-03.jpg');
+}
+#share .left .share.img4{
+	background-image: url('/material/05-share/p7-share-04.jpg');
+}
 #share .left .share.img5{
-	height: 100px;
-	width: 100px;
-	background-image: url('/material/share-image/p7-share-house.jpg');
-	background-size: cover;	
+	background-image: url('/material/05-share/p7-share-05.jpg');	
 }
 #share .left h4{
 	position: relative;
 	bottom: -60px;
-	left: -10px;
+	left: 15px;
 	font-size:30px;
 	color: #811F1C;
 }
 #share .right .share_video{
-	width: 80%;
-	height: 70%;
-	margin: 0 auto;
-	margin-top: 87px;
-	background-color: white;
+	width: 100%;
+	height: 100%;
+	margin: 90px;
 }
 #footer{
 	width:100%;
-	height:50vh;
+	height:500px;
 }
 #footer h1,#footer h3{
 	font-family: "微軟正黑體";
@@ -394,16 +372,13 @@ ul li.active {
 #footer_map{
 	width: 80%;
 	height: 100%;
-	margin: 0 auto;
-	background-image: url('/material/p1-astarImage-03-v1.png');
-	background-size: cover;
-	background-position: center;
+	margin-left: 100px;
 }
 #footer #footer_map .footer_road{
 	width: 20%;
-	height: 50%;
-	margin-right: 25px;
-	margin-left: 20px;
+	height: 250px;
+	margin-right: 20px;
+	margin-left:20px;
 	display: inline-block;	
 }
 #footer .footer_road h3:hover{
@@ -440,6 +415,11 @@ ul li.active {
 #footer #footer_map .footer_road.road_4 .icon:hover{
 	cursor: pointer;
 }
+.copyright{
+	position: relative;
+	left: 360px;
+	color: #fff;
+}
 #myBtn
  {
   display: none;
@@ -449,7 +429,7 @@ ul li.active {
   z-index: 99;
   border: none;
   outline: none;
-  background-image: url('/material/p2-icon-top.png');
+  background-image: url('/material/00-navbar/p2-icon-top.png');
   background-size: cover;
   background-position: center;
   cursor: pointer;
